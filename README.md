@@ -11,8 +11,13 @@ visually, by animating them and allowing students to step through them.
 Installation
 ------------
 
-You'll need [CoffeeScript](http://coffeescript.org) installed. Once you've
-got that, you can run:
+You'll need [CoffeeScript](http://coffeescript.org) version 1 installed. 
+
+You can do this with npm:
+
+    npm install --save-dev coffeescript@1.12.7
+
+Once you've got that, you can run:
 
     cake build
 
